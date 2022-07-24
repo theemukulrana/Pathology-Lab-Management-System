@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  
+   
+  
+   <style>
+   
+       .header{background-color:brown;
+	          padding:20px;
+	          margin-top:0px;
+			  position:fixed;
+			  top:0;
+			  width:100%;
+			  }
+	 ul{list-style:none;
+            margin-left:40%;
+			margin-right:10%;
+			}
+	  ul li{float:left;
+		       }
+	  ul li a{color:white;
+		     text-decoration:none;
+			 padding:10px;
+			  border-right:1px solid white;
+			}
+	 a:hover{ background-color :yellow;
+	          color:brown;
+		         font-size :105%;}
+      .fp{margin:2px;}
+	   p{ margin:2px;}
+	  .ilb{color:red;
+	       text-align:center;}
+	  .f1{color:blue;
+	      background-color:yellow;
+		 
+		  padding:10px;
+		  margin-left:5%;
+		  margin-right:10%;
+		 display:inline-block;
+		 padding-right:0px;
+		 margin-top:0px;}
+		 
+		 
+	.i1{display:inline-block;
+	    margin-left:10%;
+		margin-top:0px;
+		margin-bottom:10px;
+	
+	   }
+	 input{border-color:blue;
+	    padding:5px;}
+   .li{background-color:yellow;
+        margin-left:24%;
+		 margin-right:25%;
+		 margin-top:15%;
+		 padding-top:20px;
+		 border:3px solid red;}
+	 .s1{ color:red;
+	      float:right;}
+		  
+	body{ background-image:url('phc1.jpeg');
+	       
+             		}
+   </style>
+  
+  </head>
+
+
+  
+  <body>
+          
+		  
+	<div class="header">
+
+       <ul>
+	     
+		<li><a href="index.html" ><i class="glyphicon glyphicon-home"></i>  HOME</a></li>
+		<li><a href="about.php" ><i class="glyphicon glyphicon-info-sign"></i>  ABOUT US</a></li>
+		<li><a href="test_rep.html" ><i class="glyphicon glyphicon-search"></i>  SEARCH  REPORT</a></li>
+		<li><a href="test_reg.php">TEST REGISTER</a></li>
+		<li><a href="login.html" ><i class="glyphicon glyphicon-log-in"></i>  LOGIN</a></li>
+		<li><a href="contactus.html" >CONTACT US</a></li>
+	 </ul>
+	 <br>
+   </div>
+
+    <div class="stat_cont">
+    
+       <div class="li">
+	   <img src="img.jpg" alt="img" width="200px" height="220px"  class="i1" ></img>
+	   
+      <form action="login.php"  method="post" class="f1">
+	     <h4 class="ilb">IIITDMJ LAB MANAGEMENT</h4>
+		 <p ><b>user name:<b><p>
+		 <input type="text" class="fp" name="uname" placeholder="user name" />
+		 <p><b>Password:<b><p>
+		 <input type="password"  class="fp" name="pwd" placeholder="password" />
+		 <br>
+		 <p ><label for="roles" ><b>Select your role:<b></label><p>
+		 <select   name="roles" id="role" >
+		   <option value="Lab Technician" > Lab Technician</option>
+		   <option value="Doctor"  > Doctor  </option>
+		 </select>
+		 <br>
+		 <input type="submit" class="s1"  value="Login"  />  
+		 <br>  
+		 
+		 <br> 
+		 <a href="admin_login_check.html">FOR ADMIN </a> 
+		 
+		 <br>
+		
+	</form>
+	</div>
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</body>
+
+
+</html>

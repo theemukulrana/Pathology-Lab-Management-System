@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+   <head>
+         <!-- Latest compiled and minified CSS -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+          <!-- jQuery library -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+             <!-- Latest compiled JavaScript -->
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+     <style>
+	    input{ margin-left:20px;}
+		form{float:left;
+		     padding : 25px;
+		     background-color: yellow;
+			 border : 3px solid brown;
+			 margin-left :10% ;
+			  font-size :150%;
+			 
+		    }
+			
+	    body{ background-image:url("contact.jpg"); 
+		      background-size :90%;
+			  }
+	    
+		.map{float:right;
+		     margin-right:20%;
+			 font-size :150%;}
+	     .imap{border:2px solid black;
+		      }
+		 .header{background-color:brown;
+	          padding:20px;
+	          margin-top:0px;
+			  position:fixed;
+			  top:0;
+			  width:100%;
+			  }
+	 ul{list-style:none;
+            margin-left:40%;
+			margin-right:10%;
+			}
+	  ul li{float:left;
+		       }
+	  ul li a{color:white;
+		     text-decoration:none;
+			 padding:10px;
+			  border-right:1px solid white;
+			}
+	 a:hover{ background-color :yellow;
+		         font-size :105%;}
+		td{ padding:2px;
+			margin:2px;}
+		 
+	 </style>
+       
+   </head>
+   
+   
+   <body>
+   
+        <div class="header">
+
+     <ul>
+	     
+		<li><a href="index.html" ><i class="glyphicon glyphicon-home"></i>  HOME</a></li>
+		<li><a href="about.php" ><i class="glyphicon glyphicon-info-sign"></i>  ABOUT US</a></li>
+		<li><a href="test_rep.html" ><i class="glyphicon glyphicon-search"></i>  SEARCH  REPORT</a></li>
+		<li><a href="test_reg.php">TEST REGISTER</a></li>
+		<li><a href="random.php" ><i class="glyphicon glyphicon-log-in"></i>  LOGIN</a></li>
+		<li><a href="contactus.html" >CONTACT US</a></li>
+	 </ul>
+	 <br>
+	 </div>
+	 <br><br>
+	 <br><br>
+	 <div class="forms">
+         <center> <h2 style="color:brown;"> CONTACT US</h2>  </center>
+		 <br>
+		<form action="contact.php" method="post">
+		     
+		      <center> <h4>Fill this form </h4> </center>
+			   <br> 
+			   
+		  <table>
+		    <tr> 
+			
+		     <td> Name  : </td>
+			 <td><input type="text" name="name" placeholder=" your name" /></td>
+			</tr>
+			 
+			<tr>
+			 <td> Company : </td>
+			 <td> <input type="text"  name="company" placeholder="company name" /> </td>
+			<tr>
+			<tr>
+			  <td> Email : </td>
+			  <td> <input type="email"  name="Email" placeholder="abc@123.com"  /> </td>
+			<tr>
+			<tr>
+			
+			  <td> Phone : </td>
+			  <td> <input type="text" name="phone"  placeholder="1234567890" /> </td>
+			<tr>
+			<tr>
+			  <td> Message : </td> 
+			  <td><input type="textarea"  name="msg" rows="10" cols="50"  />  </td>
+			</tr>
+			<br>
+			<tr> 
+			  <td></td>
+			  <td><input type="submit"  value="submit"  /> </td>
+			</tr>
+		   
+	     </table>
+         <br>		 
+	</form> 
+	</div>
+		<div class="map">
+		
+		  <h4>WHERE TO FIND US </h4>
+		 <div class="imap">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.8158427436306!2d80.02239941492213!3d23.176920484875073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981a94397365dd3%3A0x5f9aeb812c2678c9!2sIIITDM%20Jabalpur!5e0!3m2!1sen!2sin!4v1630372749962!5m2!1sen!2sin" width="450" height="375" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+		</div>
+  </body>
+</html>
